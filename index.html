@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/test.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>test</title>
+</head>
+<body>
+    <div id = "backlayer"></div>
+    <div id = "menu">
+        <div id = "goback">
+            <img src = "image/arrow.png">
+            <p>CARELLO</p>
+        </div>
+        <ul>
+            <li id = "pricepineapp"><img src = "image/product_1.png">
+                <p>OFFERTA<br>FIZZYSLIM CON SAPORE DI<br>PINEAPPLE</p>
+                <br>
+            </li>
+            <span></span>
+            <li id = "priceberries"><img src = "image/product_2.png">
+                    <p>OFFERTA<br>FIZZYSLIM CON SAPORE DI<br>BERRIES</p>
+                <br>
+            </li>
+            <span></span>
+            <li id = "pricegrapefruit"><img src = "image/product_3.png">
+                    <p>OFFERTA<br>FIZZYSLIM CON SAPORE DI<br>GRAPEFRUIT</p>
+                <br>
+            </li>
+            <span></span>
+            <li id = "priceapp"><img src = "image/product_4.png">
+                    <p>OFFERTA<br>FIZZYSLIM CON SAPORE DI<br>APPLE</p>
+                <br>
+            </li>
+            <span></span>
+            <li id = "subtotal" style = "padding: 0 40px;">
+            <h3 style = "margin:0;font-size: 30px; font-family:'Gilroy Regular';">SUBTOTAL</h3>
+        </li>
+        <span style = "width: 100%;"></span>
+        <li id = "button">
+            <button id = "order">
+                    VISSUALIZZA CARELLO
+            </button>
+        </li>
+        </ul>
+    </div>
+    <div id = "market">
+    <h2>CASSA</h2>
+    <ul>
+    <li>
+        <p>PINEAPPLE</p>
+        <img src = "image/product_1.png">
+        <p class = "sale">OFFERTA LIMITATA -50%</p>
+        <p class = "price">$8.50 <sup><s>$19.00</s></sup></p>
+        <div id = "container">
+            <div class = "custom-select" style = "max-height: 50px;">
+                <select id = "pineap">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </div>
+                <input class = "butt" type = "image" src = "image/butt.png">
+            </div>
+    </li>
+    <li>
+        <p>BERRIES</p>
+        <img src = "image/product_2.png">
+        <p class = "sale">OFFERTA LIMITATA -50%</p>
+        <p class = "price">$8.50 <sup><s>$19.00</s></sup></p>
+        <div id = "container">
+            <div class = "custom-select" style = "max-height: 50px;">
+                <select id = "berry">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </div>
+                <input class = "butt" type = "image" src = "image/butt.png">
+            </div>
+    </li>
+    <li>
+        <p>GRAPEFRUIT</p>
+        <img src = "image/product_3.png">
+        <p class = "sale">OFFERTA LIMITATA -50%</p>
+        <p class = "price">$8.50 <sup><s>$19.00</s></sup></p>
+        <div id = "container">
+        <div class = "custom-select" style = "max-height: 50px;">
+            <select id = "grapef">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <input class = "butt" type = "image" src = "image/butt.png">
+        </div>
+    </li>
+    <li>
+        <p>APPLE</p>
+        <img src = "image/product_4.png">
+        <p class = "sale">OFFERTA LIMITATA -50%</p>
+        <p class = "price">$8.50 <sup><s>$19.00</s></sup></p>
+        <div id = "container">
+            <div class = "custom-select" style = "max-height: 50px;">
+                <select id = "appl">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </select>
+                </div>
+                <input class = "butt" type = "image" src = "image/butt.png">
+            </div>
+    </li>
+    </ul>
+    <div id = "doska">
+    <img src = "image/table.png">
+    </div>
+</div>
+</body>
+<script src="js/test.js"></script>
+</html>
